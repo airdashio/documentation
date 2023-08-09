@@ -51,13 +51,13 @@
                 ]
             }
         },
-        "title":  "variables.title",
+        "title":  "{variables.title}",
         "options": {
             "chart": {
                 "height": "100%",
                 "type": "{variables.type}"
             },
-            "labels": "variables.labels",
+            "labels": "{variables.labels}",
             "legend": {
                 "show": false
             },
@@ -78,7 +78,7 @@
 "shadeIntensity": 0.65
 }
 },
-            "responsive": "variables.responsive"
+            "responsive": "{variables.responsive}"
         }
     }
 }
