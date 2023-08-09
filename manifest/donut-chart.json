@@ -1,11 +1,11 @@
 {
     "kind": "donut-chart",
     "version": "v1",
-    "title": "accountancy",
-    "uri": "/accountancy",
+    "title": "Gender",
+    "uri": "/gender",
     "variables": {
-        "title": "Rights transactions",
-        "labels":  ["ManagementUnit", "Administrative ","IT unit","educationDepartment"],
+        "title": "Gender",
+        "labels":  ["New", "Returning "],
 
 
         "responsive": [
@@ -72,12 +72,12 @@
                 "opacity": 1
             },
             "theme": {
-            "monochrome": {
-            "enabled": true,
-"shadeTo": "light",
-"shadeIntensity": 0.65
-}
-},
+                "monochrome": {
+                    "enabled": true,
+                    "shadeTo": "light",
+                    "shadeIntensity": 0.65
+                }
+            },
             "responsive": "{variables.responsive}"
         }
     }
