@@ -4,7 +4,8 @@
     "title": "sampleTitle",
     "uri": "/sample/page",
     "variables": {
-        "type": "Select"
+        "type": "WYSIWYGEditor",
+        "massage": "WYSIWYGEditor"
     },
     "data": [
         {
@@ -14,17 +15,9 @@
             "url": ""
         }
     ],
-    "datas":   {
+    "data's":   {
         "type": "{variables.type}",
-        "name": "Brands",
-        "label": "Brands",
-        "items": {
-            "data-source": "2f59c3c0-986e-4e3b-b856-f500aa94deb8",
-            "default": [{
-                "label": "Fantastic",
-                "value": "fantastic"
-            }]
+        "massage": "{variables.massage}"
 
-        }
     }
 }

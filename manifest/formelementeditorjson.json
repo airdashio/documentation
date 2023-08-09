@@ -15,7 +15,8 @@
             "exclude": [
                 "node_modules"
             ]
-        }
+        },
+        "type": "JsonEditor"
     },
     "data": [
         {
@@ -26,7 +27,7 @@
         }
     ],
     "data's":  {
-        "type": "JsonEditor",
+        "type": "{variables.type}",
         "id": "variables.id",
         "height":288.89,
         "name": "variables.JsonEditor",
