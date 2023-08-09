@@ -1,0 +1,30 @@
+{
+    "kind": "formElementSelect",
+    "version": "v1",
+    "title": "sampleTitle",
+    "uri": "/sample/page",
+    "variables": {
+        "type": "Select"
+    },
+    "data": [
+        {
+            "id": "2f59c3c0-986e-4e3b-b856-f500aa94deb8",
+            "payload": {},
+            "headers": {},
+            "url": ""
+        }
+    ],
+    "datas":   {
+        "type": "{variables.type}",
+        "name": "Brands",
+        "label": "Brands",
+        "items": {
+            "data-source": "2f59c3c0-986e-4e3b-b856-f500aa94deb8",
+            "default": [{
+                "label": "Fantastic",
+                "value": "fantastic"
+            }]
+
+        }
+    }
+}
