@@ -1,0 +1,149 @@
+{
+    "kind": "data-table",
+    "version": "v1",
+    "title": "sampleTitle",
+    "uri": "/sample/page",
+    "variables": {
+    "bookName": "The Hard Things about Hard Things",
+        "categoryId": 87564521
+},
+    "templates": [
+    {
+        "id": "business-edit-form",
+        "title": "Transaction editing 1",
+        "type": "edit-form",
+        "fields": [
+            {
+                "kind": "text-field",
+                "version": "v1",
+                "name": "number_production_of_number",
+                "label": "number_production_of_number",
+                "defaultValue": "{{row.number_production_of_number}}"
+            },
+            {
+                "kind": "text-field",
+                "version": "v1",
+                "name": "order_daily_of_number",
+                "label": "order_daily_of_number",
+                "defaultValue": "{{row.number_production_of_number}}"
+            },
+            {
+                "kind": "select-field",
+                "version": "v1",
+                "name": "category",
+                "label": "Category",
+                "items": {
+                    "data-source" :  "01ff61ca-2e47-4ebe-b076-7aa9491fcbcb",
+                    "default": [{
+                        "label": "Fantastic",
+                        "value": "fantastic"
+                    }]
+                }
+            }
+
+
+        ],
+
+        "buttons": [
+            {
+                "title": "Send",
+                "for_dirty": false,
+                "api": {
+                    "headers": {},
+                    "url": "http://localhost:8080/sales.json",
+                    "payload": {}
+                }
+            }
+        ]
+
+    }
+],
+    "data": [
+    {
+        "id": "01ff61ca-2e47-4ebe-b076-7aa9491fcbcb",
+        "payload": {},
+        "headers": {},
+        "url": ""
+    }
+],
+    "errors": {
+    "no-items-found": "There are no businesses!"
+
+},
+    "columns": [
+    {
+        "id": "brand_types",
+        "align": "center",
+        "padding": false,
+        "label": "Type of Brands",
+        "sort": true,
+        "type": "string",
+        "className": "p-4 md:p-16 text-center"
+    },
+    {
+        "id": "daily_production_number",
+        "align": "center",
+        "padding": false,
+        "label": "Daily Production Number",
+        "sort": true,
+        "type": "integer",
+        "className": "p-4 md:p-16 text-center"
+    },
+    {
+        "id": "Number of Daily Orders",
+        "align": "center",
+        "padding": false,
+        "label": "Number of Daily Orders",
+        "sort": true,
+        "type": "integer",
+        "className": "p-4 md:p-16 text-center"
+    },
+    {
+        "id": "Activity",
+        "align": "center",
+        "padding": false,
+        "label": "Activity",
+        "sort": false,
+        "className": "p-4 md:p-16 text-center",
+        "type": "icon",
+        "enum": {
+            "active": {
+                "icon": "check_circle",
+                "className": "text-green text-20"
+            },
+            "blocked": {
+                "icon": "remove_circle",
+                "className": "text-red text-20"
+            }
+        }
+    }
+],
+    "rows": [
+    {
+        "id": "b3c4d5fa-6cc4-427d-8d8b-756aa113ee0e",
+        "brand_types": "Royal",
+        "daily_production_number": 1250,
+        "Number of Daily Orders": 682,
+        "Activity": {
+            "value": "blocked",
+            "click": {
+                "template":  "business-edit-form"
+            }
+        }
+    },
+    {
+        "id": "ec289c63-0dbe-40dc-b818-4e966be379b8",
+        "brand_types": "Roya",
+        "daily_production_number": 1250,
+        "Number of Daily Orders": 682,
+        "Activity": {
+            "value": "blocked",
+            "click":  {
+                "template":  "business-edit-form"
+            }
+        }
+    }
+]
+
+}
+
