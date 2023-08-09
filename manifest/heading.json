@@ -1,4 +1,6 @@
 {
+  "kind": "heading",
+  "version": "v1",
   "title": "Analytics dashboard",
-  "subTitle": "Monitor metrics, check reports and review performance"
+  "subtitle": "Monitor metrics, check reports and review performance"
 }
