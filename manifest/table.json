@@ -1,0 +1,180 @@
+{
+    "kind": "table",
+    "version": "v1",
+    "title": "Recent transactions",
+    "uri": "/sample/page",
+    "variables": {
+    "title": "Recent transactions",
+    "subTitle": "Recent transactions",
+    "bookName": "The Hard Things about Hard Things",
+        "categoryId": 87564521
+},
+    "templates": [
+    {
+        "id": "business-edit-form",
+        "title": "Transaction editing 1",
+        "type": "edit-form",
+        "fields": [
+            {
+                "kind": "text-field",
+                "version": "v1",
+                "name": "number_production_of_number",
+                "label": "number_production_of_number",
+                "defaultValue": "{{row.number_production_of_number}}"
+            },
+            {
+                "kind": "text-field",
+                "version": "v1",
+                "name": "order_daily_of_number",
+                "label": "order_daily_of_number",
+                "defaultValue": "{{row.number_production_of_number}}"
+            },
+            {
+                "kind": "select-field",
+                "version": "v1",
+                "name": "category",
+                "label": "Category",
+                "items": {
+                    "data-source" :  "01ff61ca-2e47-4ebe-b076-7aa9491fcbcb",
+                    "default": [{
+                        "label": "Fantastic",
+                        "value": "fantastic"
+                    }]
+                }
+            }
+        ],
+
+        "buttons": [
+            {
+                "title": "Send",
+                "for_dirty": false,
+                "api": {
+                    "headers": {},
+                    "url": "http://localhost:8080/sales.json",
+                    "payload": {}
+                }
+            }
+        ]
+
+    }
+],
+    "data": [
+    {
+        "id": "01ff61ca-2e47-4ebe-b076-7aa9491fcbcb",
+        "payload": {},
+        "headers": {},
+        "url": ""
+    }
+],
+    "errors": {
+    "no-items-found": "There are no businesses!"
+
+},
+    "columns": [
+    {
+        "id": "transaction_id",
+        "align": "center",
+        "padding": false,
+        "label": "Transaction ID",
+        "sort": true,
+        "type": "string",
+        "className": "p-4 md:p-16 text-center"
+    },
+    {
+            "id": "date",
+            "align": "center",
+            "padding": false,
+            "label": "Date",
+            "sort": true,
+            "type": "string",
+            "className": "p-4 md:p-16 text-center"
+    },
+    {
+        "id": "name",
+        "align": "center",
+        "padding": false,
+        "label": "Name",
+        "sort": true,
+        "type": "integer",
+        "className": "p-4 md:p-16 text-center"
+    },
+    {
+        "id": "amount",
+        "align": "center",
+        "padding": false,
+        "label": "Amount",
+        "sort": true,
+        "type": "integer",
+        "className": "p-4 md:p-16 text-center"
+    },
+    {
+        "id": "status",
+        "align": "center",
+        "padding": false,
+        "label": "Status",
+        "sort": false,
+        "className": "p-4 md:p-16 text-center",
+        "type": "icon"
+    }
+],
+    "rows": [
+     {
+        "id": "b3c4d5fa-6cc4-427d-8d8b-756aa113ee0e",
+        "transaction_id": "528651571NT",
+        "date": "Oct 08, 2019",
+        "name": "Morgan Page",
+        "amount": "$1,358.75",
+        "status": "COMPLETED",
+        "Activity": {
+            "value": "blocked",
+            "click": {
+                "template":  "business-edit-form"
+            }
+        }
+    },
+    {
+        "id": "b3c4sdad5fa-6casdc4-427d-8d8b-756aa113ee0e",
+        "transaction_id": "421436904YT",
+        "date": "Dec 18, 2019",
+        "name": "Nita Hebert",
+        "amount": "-$1,042.82",
+        "status": "COMPLETED"
+    },
+    {
+        "id": "b3c4sdad5fa-6casdc4-427d-8d8b-756aa113ee0e",
+        "transaction_id": "685377421YT",
+        "date": "Dec 25, 2019",
+        "name": "Marsha Chambers",
+        "amount": "$1,828.16",
+        "status": "PENDING"
+    },
+    {
+        "id": "b3c4sdadsaad5fa-6cc4-427d-8d8b-756aa113ee0e",
+        "transaction_id": "884960091RT",
+        "date": "Nov 29, 2019",
+        "name": "Charmaine Jackson",
+        "amount": "$1,647.55",
+        "status": "COMPLETED"
+    },
+        {
+            "id": "b3asabbvc4sdadsaad5fa-6cc4-427d-8d8b-756aa113ee0e",
+            "transaction_id": "361402213NT",
+            "date": "Nov 24, 2019",
+            "name": "Maura Carey",
+            "amount": "-$927.43",
+            "status": "COMPLETED"
+        }
+    ],
+    "button": [
+        {
+            "title": "se all transactions",
+            "for-dirty": false,
+            "ali":{
+                "headers": {},
+                "url": "airdash",
+                "payload": {}
+            }
+        }
+    ]
+}
+
