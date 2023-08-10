@@ -1,73 +1,60 @@
 {
-  "id": "circular-distribution",
+  "version": "v1",
+  "kind": "circular-distribution",
   "title": "Task Distribution",
-  "ranges": {
-    "TW": "This Week",
-    "LW": "Last Week"
+  "labels": {
+    "pies": [
+      "Frontend",
+      "Backend",
+      "API",
+      "Issues"
+    ],
+    "open": "Tasks Added",
+    "closed": "Tasks Completed"
   },
-  "currentRange": "TW",
-  "mainChart": {
-    "series": {
-      "TW": [
+  "series": {
+    "Last Week": {
+      "pies": [
         15,
         20,
         38,
         27
       ],
-      "LW": [
+      "open": 564,
+      "closed": 212
+    },
+    "Last Month": {
+      "pies": [
         19,
         16,
         42,
         23
-      ]
-    },
-    "options": {
-      "series": [
-        76,
-        67,
-        61
       ],
-      "chart": {
-        "height": "100%",
-        "type": "polarArea"
-      },
-      "stroke": {
-        "width": 1
-      },
-      "fill": {
-        "type": "solid",
-        "opacity": 0.7
-      },
-      "legend": {
-        "position": "bottom"
-      },
-      "theme": {
-        "monochrome": {
-          "enabled": true,
-          "shadeTo": "light",
-          "shadeIntensity": 0.65
-        }
-      },
-      "labels": [
-        "Frontend",
-        "Backend",
-        "API",
-        "Issues"
-      ]
+      "open": 564,
+      "closed": 212
     }
   },
-  "footerLeft": {
-    "title": "Tasks Added",
-    "count": {
-      "LW": 526,
-      "TW": 594
-    }
-  },
-  "footerRight": {
-    "title": "Tasks Completed",
-    "count": {
-      "LW": 260,
-      "TW": 287
+  "options": {
+    "chart": {
+      "height": "100%",
+      "type": "polarArea"
+    },
+    "stroke": {
+      "width": 1
+    },
+    "fill": {
+      "type": "solid",
+      "opacity": 0.7
+    },
+    "legend": {
+      "position": "bottom"
+    },
+    "theme": {
+      "monochrome": {
+        "enabled": true,
+        "shadeTo": "light",
+        "shadeIntensity": 0.65
+      }
     }
   }
 }
