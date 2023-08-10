@@ -1,11 +1,11 @@
 {
     "kind": "chart-comparison",
     "version": "v1",
+    "title":"Comparison of Income and Taxes" ,
+    "Underـtheـtitle": "According to the Last Three Years",
     "data": {
         "id": "chart-area-comparison",
         "type": "chart-area-comparison",
-        "title":"Comparison of Income and Taxes" ,
-        "Underـtheـtitle": "According to the Last Three Years",
         "series": {
             "2022": [
                 {
