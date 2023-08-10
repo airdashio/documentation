@@ -2,6 +2,6 @@
   "kind": "text-field",
   "version": "v1",
   "name": "text-field",
-  "defaultvalue": "text-field",
-  "label": "text-field"
+  "default": "",
+  "label": "Text Field Title"
 }

@@ -2,7 +2,7 @@
   "kind": "text-area-editor",
   "version": "v1",
   "name": "text-area-editor",
-  "default": "text-area-editor",
-  "label": "",
+  "defaultvalue": "text-area-editor",
+  "label": "text-area-editor",
   "rows": 20
 }
