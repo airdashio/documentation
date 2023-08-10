@@ -27,10 +27,29 @@ Incorporate these details into the provided template to create a well-structured
   "kind": "page",
   "version": "v1",
   "children": [],
-  "className": "flex"
+  "className": "flex",
   "uri": "/",
-  "title":"AIRDASH",
-  "navigation_id": "cbf6601a-06c1-4ec8-8103-1b4816aea48e"
+  "title": "AIRDASH",
+  "navigation_id": "cbf6601a-06c1-4ec8-8103-1b4816aea48e",
+  "data": [
+    {
+      "id": "fb1471e0-4187-4760-ac7a-77564f5975bc",
+      "payload": {},
+      "headers": {},
+      "url": ""
+    }
+  ],
+  "variables": {
+    "platform": "AIRDASH",
+    "licensed": "https://www.monirs.com"
+  },
+  "templates": {
+    "book": {
+      "bookName": "The Hard Things about Hard Things",
+      "categoryId": 87564521
+    }
+  }
 }
+
 ```
 
