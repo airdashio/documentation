@@ -1,16 +1,11 @@
 {
   "version": "v1",
   "kind": "circular-distribution",
-  "title": "Task Distribution",
+  "title": "",
   "labels": {
-    "pies": [
-      "Frontend",
-      "Backend",
-      "API",
-      "Issues"
-    ],
-    "open": "Tasks Added",
-    "closed": "Tasks Completed"
+    "pies": [],
+    "open": "Added",
+    "closed": "Completed"
   },
   "series": {
     "Last Week": {
