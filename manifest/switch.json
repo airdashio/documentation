@@ -1,28 +1,7 @@
 {
   "kind": "Switch",
   "version": "v1",
-  "title": "sampleTitle",
-  "uri": "/sample/page",
-  "variables": {
-    "type": "Switch",
-    "name": "Switch"
-
-    "data": [
-      {
-        "id": "d96155eb-0eb5-45ef-8f22-ffec3fa808b5",
-        "payload": {},
-        "headers": {},
-        "url": ""
-      }
-    ],
-    "data's": {
-      "type": "{variables.type}",
-      "value": {
-        "data-source": "d96155eb-0eb5-45ef-8f22-ffec3fa808b5",
-        "default": "off"
-      },
-      "name": "{variables.type}",
-      "label": "Category"
-    }
-  }
+  "type": "Switch",
+  "name": "Switch",
+  "label": ""
 }
