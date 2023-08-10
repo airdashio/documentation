@@ -1,26 +1,7 @@
 {
-  "kind": "TextField",
+  "kind": "text-field",
   "version": "v1",
-  "title": "sampleTitle",
-  "uri": "/sample/page",
-  "variables": {
-    "type": "TextField",
-    "name": "TextField",
-    "default": "default-value",
-    "row": 6,
-    "data": [
-      {
-        "id": "2f59c3c0-986e-4e3b-b856-f500aa94deb8",
-        "payload": {},
-        "headers": {},
-        "url": ""
-      }
-    ],
-    "data's": {
-      "type": "{variables.type}",
-      "name": "{variables.type}",
-      "label": "Category",
-      "default": "{variables.default}"
-    }
-  }
+  "name": "text-field",
+  "defaultvalue": "text-field",
+  "label": "text-field"
 }

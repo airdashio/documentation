@@ -1,37 +1,17 @@
 {
-    "kind": "formElementCodeEditorJson",
+    "kind": "code-editor-json",
     "version": "v1",
-    "title": "sampleTitle",
-    "uri": "/sample/page",
-    "variables": {
-        "name": "JsonEditor",
-        "id": 1,
-        "placeholder":{
-            "compilerOptions": {
-                "module": "commonjs",
-                "target": "es5",
-                "sourceMap": true
-            },
-            "exclude": [
-                "node_modules"
-            ]
+    "name": "JsonEditor",
+    "id": 1,
+    "placeholder":{
+        "compilerOptions": {
+            "module": "commonjs",
+            "target": "es5",
+            "sourceMap": true
         },
-        "type": "JsonEditor"
+        "exclude": [
+            "node_modules"
+        ]
     },
-    "data": [
-        {
-            "id": "01ff61ca-2e47-4ebe-b076-7aa9491fcbcb",
-            "payload": {},
-            "headers": {},
-            "url": ""
-        }
-    ],
-    "data's":  {
-        "type": "{variables.type}",
-        "id": "variables.id",
-        "height":288.89,
-        "name": "variables.JsonEditor",
-        "placeholder":"{variables.placeholder}"
-
-    }
+    "height": 288
 }
