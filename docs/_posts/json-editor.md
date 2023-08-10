@@ -14,8 +14,6 @@ format through a form.
 
 ## Basic usage
 
-By following this structure, User.
-
 - Required string param **kind** always should be **code-editor-json**.
 - Required string param **version** always should be **v1**.
 - Required string param **name** is name of your form editor.

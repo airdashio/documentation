@@ -1,8 +1,6 @@
 {
   "kind": "UploadImage",
   "version": "v1",
-  "title": "sampleTitle",
-  "uri": "/sample/page",
   "variables": {
     "type": "UploadImage",
     "row": 6,
