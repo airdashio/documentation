@@ -183,7 +183,7 @@ main() {
   if [[ $opt_skip_ver = false ]]; then
     check
 
-    # auto-generate a new version number to the file 'formelementtexeareaededitor.json'
+    # auto-generate a new version number to the file 'text-area-editor.json'
     if $opt_pre; then
       standard-version --prerelease rc
     else
