@@ -16,7 +16,7 @@ format through a form.
 
 - Required string param **kind** always should be **code-editor-json**.
 - Required string param **version** always should be **v1**.
-- Required string param **name** is name of your form editor.
+- Required string param **name** data key for this field's payloads.
 - Required dictionary param **placeholder** display everything you need in the placeholder.
 - Required integer param **height** a numerical value used to set the height of your form's display.
 
