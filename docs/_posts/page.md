@@ -7,7 +7,7 @@ tags: [writing]
 render_with_liquid: false
 ---
 
-## Document Structure for Creating Flexs
+## Document Structure for Creating page
 In this dedicated section, you will gain familiarity with a dynamic element that empowers you with the versatile flexibility to rearrange the structure of your dashboard pages according to your preferences and needs.
 
 The page is an inheritance of flex. And this section is exactly similar to the flex section. You can refer to [flex document](https://github.com/airdashio/documentation/blob/main/docs/_posts/flex.md) for more information.
