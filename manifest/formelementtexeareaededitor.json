@@ -1,24 +1,8 @@
 {
-  "kind": "formElement-textarea",
+  "kind": "text-area-editor",
   "version": "v1",
-  "title": "sampleTitle",
-  "uri": "/sample/page",
-  "variables": {
-    "type": "textarea",
-    "name": "textarea",
-    "row": 6,
-    "data": [
-      {
-        "id": "2f59c3c0-986e-4e3b-b856-f500aa94deb8",
-        "payload": {},
-        "headers": {},
-        "url": ""
-      }
-    ],
-    "data's": {
-      "type": "{variables.type}",
-      "name": "{variables.name}",
-      "row": "{row}"
-    }
-  }
+  "name": "text-area-editor",
+  "defaultvalue": "text-area-editor",
+  "label": "text-area-editor",
+  "rows": 20
 }
