@@ -1,63 +1,55 @@
 {
     "kind": "donut-chart",
     "version": "v1",
-    "title": "Gender",
-    "uri": "/gender",
-    "variables": {
-        "title": "Gender",
-        "labels":  ["New", "Returning "],
-
-
-        "responsive": [
-            {
-                "breakpoint": 480,
-                "options": {
-                    "chart": {
-                        "width": "100%"
-                    },
-                    "legend": {
-                        "position": "bottom"
-                    }
-                }
-            }
-        ],
-        "type": "donut"
-    },
-    "data": [
-        {
-            "id": "a22ca763-f87d-44e6-a28c-80589fd03510",
-            "payload": {},
-            "headers": {},
-            "url": ""
-        }
-    ],
-    "data's":   {
-        "id": "chart-donut",
+    "data": {
+        "id": "widget7",
         "type": "chart-donut",
         "series": {
-            "data-source": "a22ca763-f87d-44e6-a28c-80589fd03510",
-            "default.value": {
-                "last month": [
-                    {
-                        "data": [77.2, 8.4, 14.4,6.8],
-                        "change": [-2.3, 0.3, -0.2,2.2]
-                    }
-                ],
-                "last week": [
-                    {
-                        "data": [77.2, 8.4, 14.4,3.9],
-                        "change": [-2.3, 0.3, -0.2,-0.1]
-                    }
-                ]
-            }
+            "last month": [
+                {
+                    "data": [
+                        77.2,
+                        8.4,
+                        14.4,
+                        6.8
+                    ],
+                    "change": [
+                        -2.3,
+                        0.3,
+                        -0.2,
+                        2.2
+                    ]
+                }
+            ],
+            "last week": [
+                {
+                    "data": [
+                        77.2,
+                        8.4,
+                        14.4,
+                        3.9
+                    ],
+                    "change": [
+                        -2.3,
+                        0.3,
+                        -0.2,
+                        -0.1
+                    ]
+                }
+            ]
         },
-        "title":  "{variables.title}",
+        "title": "Rights transactions",
         "options": {
             "chart": {
                 "height": "100%",
-                "type": "{variables.type}"
+                "type": "donut"
             },
-            "labels": "{variables.labels}",
+            "labels": [
+                "ManagementUnit",
+                "Administrative ",
+                "IT unit",
+                "educationDepartment"
+            ],
             "legend": {
                 "show": false
             },
@@ -78,7 +70,19 @@
                     "shadeIntensity": 0.65
                 }
             },
-            "responsive": "{variables.responsive}"
+            "responsive": [
+                {
+                    "breakpoint": 480,
+                    "options": {
+                        "chart": {
+                            "width": "100%"
+                        },
+                        "legend": {
+                            "position": "bottom"
+                        }
+                    }
+                }
+            ]
         }
     }
 }

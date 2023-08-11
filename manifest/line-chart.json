@@ -1,56 +1,31 @@
 {
-    "kind": "line",
+    "kind": "chart-line",
     "version": "v1",
-    "title": "sampleTitle",
-    "uri": "/sample/page",
-    "variables": {
-        "title": "total other transaction",
-        "change": {
-            "value": 321,
-            "percentage": 2.05
-        },
-        "position": "topRight",
-        "type": "line",
-        "theme": "dark"
-    },
-    "data": [
-        {
-            "id": "1b9189e9-42a3-42a3-9b23-b8284d78b74c",
-            "payload": {},
-            "headers": {},
-            "url": ""
-        }
-    ],
-    "data's":  {
+    "data":    {
         "id": "widget8",
         "type": "chart-line",
-        "title": "variables.title",
-        "series": {
-            "data-source": "1b9189e9-42a3-42a3-9b23-b8284d78b74c",
-            "default-value": [
-                {
-                    "name": "week",
-                    "data": [540, 539, 527, 548, 540, 552, 566]
-                },
-
-                {
-                    "name": "month",
-                    "data": [1520, 1529, 1567, 1588, 1590, 1652, 1622]
-                },
-                {
-                    "name": "year",
-                    "data": [3520, 4529, 5567, 2588, 8590, 3652, 9622]
-                }
-            ]
+        "series": [
 
 
+            {
+                "name": "week",
+                "data": [540, 539, 527, 548, 540, 552, 566]
+            },
 
+            {
+                "name": "month",
+                "data": [1520, 1529, 1567, 1588, 1590, 1652, 1622]
+            },
+            {
+                "name": "year",
+                "data": [3520, 4529, 5567, 2588, 8590, 3652, 9622]
+            }
 
-        },
+        ],
 
         "options": {
             "chart": {
-                "type": "{variable.type}",
+                "type": "line",
                 "height": "100%",
                 "toolbar": {
                     "show": false
@@ -102,16 +77,22 @@
             },
             "tooltip": {
                 "followCursor": true,
-                "theme": "{variable.theme}",
+                "theme": "dark",
                 "fixed": {
                     "enabled": false,
-                    "position": "{variables.position}",
+                    "position": "topRight",
                     "offsetX": 0,
                     "offsetY": 0
                 }
             }
         },
         "today": "12,540",
-        "change": "{variables.change}"
+        "change": {
+            "value": 321,
+            "percentage": 2.05
+        }
     }
+
+
 }
+
