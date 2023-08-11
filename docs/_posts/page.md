@@ -22,7 +22,6 @@ to [flex document](https://github.com/airdashio/documentation/blob/main/docs/_po
 - Required list param **children**, You can refer to
   the [flex document](https://github.com/airdashio/documentation/blob/main/docs/_posts/flex.md) for more information.
 - Required string param **uri** is the address of page for example `/customers`.
-- Optional string param **navigation_id** your navigation_id, for more information you refer []().
 
 Incorporate these details into the provided template to create a well-structured flex element.
 
@@ -100,9 +99,29 @@ For setting a title for the `Page` you can add **title** param.
 }
 ```
 
-### Create Specific Variables
+### Create Specific Templates
 
 **templates** is a dictionary param that allow customer to create and use specific templates in `page`.
+
+```json
+{
+  "kind": "page",
+  "version": "v1",
+  "templates": {
+    "heading": {
+      "kind": "heading",
+      "version": "v1",
+      "title": "Analytics dashboard",
+      "subtitle": "I love using {{variables.platform}}} for create wonderful dashboards; their site is {{variables.licensed}}}."
+    }
+  },
+  "children": [
+  ],
+  "uri": "/"
+}
+```
+
+#### Usage
 
 ```json
 {
@@ -131,4 +150,54 @@ For setting a title for the `Page` you can add **title** param.
 }
 ```
 
-#### Usage
+### Navigation Options
+
+**navigation** is a string and dictionary param, which has various options such as `null` for remove
+current `navigation` and `inherit` for use previous `navigation` and new navigation configuration for overwrite
+previous `navigation`, you can see more information
+here [navigation](https://github.com/airdashio/documentation/blob/main/docs/_posts/navigation.md) for make
+new `navigation`.
+
+#### Use `inherit`
+
+```json
+{
+  "kind": "page",
+  "version": "v1",
+  "children": [],
+  "uri": "/",
+  "navigation": "inherit"
+}
+```
+
+#### Use `null`
+
+```json
+{
+  "kind": "page",
+  "version": "v1",
+  "children": [],
+  "uri": "/",
+  "navigation": null
+}
+```
+
+#### Overwrite Previous Navigation
+
+```json
+{
+  "kind": "page",
+  "version": "v1",
+  "children": [],
+  "uri": "/",
+  "navigation": {
+    "kind": "navigation",
+    "version": "v1",
+    "default": {
+      "url": "https://example.com/first_page",
+      "headers": {},
+      "payload": {}
+    }
+  }
+}
+```
