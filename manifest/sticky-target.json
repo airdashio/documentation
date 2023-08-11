@@ -1,26 +1,21 @@
 {
-  "id": "widget1",
-  "ranges": {
-    "DY": "Yesterday",
-    "DT": "Today",
-    "DTM": "Tomorrow"
-  },
-  "currentRange": "DT",
+  "version": "v1",
+  "kind": "sticky-target",
+  "color": "#4caf50",
   "data": {
-    "name": "Due Tasks",
-    "count": {
-      "DY": 21,
-      "DT": 25,
-      "DTM": 19
-    },
-    "extra": {
-      "name": "Completed",
-      "count": {
-        "DY": 6,
-        "DT": 7,
-        "DTM": "-"
-      }
+    "Yesterday": {
+      "name": "Due Tasks",
+      "note": "7 Completed",
+      "count": 21
     }
   },
-  "detail": "You can show some detailed information about this widget in here."
+  "more": {
+    "icon": "create",
+    "click": {
+      "url": "example.com",
+      "headers": {},
+      "path": "/kpi/create",
+      "payload": {}
+    }
+  }
 }
