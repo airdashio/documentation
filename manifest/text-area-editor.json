@@ -4,6 +4,6 @@
   "name": "text-area-editor",
   "default": "text-area-editor",
   "placeholder": "input-editor",
-  "label": "",
+  "label": "INPUT-EDITOR",
   "rows": 25
 }
