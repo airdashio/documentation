@@ -1,7 +1,7 @@
 {
     "kind": "chart_area_tabular",
     "version": "v1",
-    "id": "widget1",
+    "id": "chart_area_tabular",
     "heade": "Total transactions",
     "title": "Costs ",
     "type": "chart-area-tabular",
