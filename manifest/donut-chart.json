@@ -1,89 +1,73 @@
 {
     "kind": "donut-chart",
     "version": "v1",
-    "data": {
-        "id": "widget7",
-        "type": "chart-donut",
-        "series": {
-            "last month": [
-                {
-                    "data": [
-                        77.2,
-                        8.4,
-                        14.4,
-                        6.8
-                    ],
-                    "change": [
-                        -2.3,
-                        0.3,
-                        -0.2,
-                        2.2
-                    ]
-                }
-            ],
-            "last week": [
-                {
-                    "data": [
-                        77.2,
-                        8.4,
-                        14.4,
-                        3.9
-                    ],
-                    "change": [
-                        -2.3,
-                        0.3,
-                        -0.2,
-                        -0.1
-                    ]
-                }
-            ]
+    "title": "Sessions by device",
+    "series": {
+        "Today": [
+            {
+                "data": [92.8, 6.1, 1.1],
+                "change": [-0.6, 0.7, 0.1]
+            }
+        ],
+        "Yesterday": [
+            {
+                "data": [77.2, 8.4, 14.4],
+                "change": [-2.3, 0.3, -0.2]
+            }
+        ],
+        "Last 7 days": [
+            {
+                "data": [88.2, 9.2, 2.6],
+                "change": [1.9, -0.4, 0.3]
+            }
+        ],
+        "Last 28 days": [
+            {
+                "data": [65.2, 2.6, 32.2],
+                "change": [-12.6, -0.7, 4.2]
+            }
+        ],
+        "Last 90 days": [
+            {
+                "data": [93.5, 4.2, 2.3],
+                "change": [2.6, -0.7, 2.1]
+            }
+        ]
+    },
+    "labels": ["Desktop", "Mobile", "Tablet"],
+    "options": {
+        "chart": {
+            "height": "100%",
+            "type": "donut"
         },
-        "title": "Rights transactions",
-        "options": {
-            "chart": {
-                "height": "100%",
-                "type": "donut"
-            },
-            "labels": [
-                "ManagementUnit",
-                "Administrative ",
-                "IT unit",
-                "educationDepartment"
-            ],
-            "legend": {
-                "show": false
-            },
-            "dataLabels": {
-                "enabled": false
-            },
-            "stroke": {
-                "width": 2,
-                "colors": "green"
-            },
-            "fill": {
-                "opacity": 1
-            },
-            "theme": {
-                "monochrome": {
-                    "enabled": true,
-                    "shadeTo": "light",
-                    "shadeIntensity": 0.65
+        "legend": {
+            "show": false
+        },
+        "dataLabels": {
+            "enabled": false
+        },
+        "stroke": {
+            "width": 2,
+            "colors": "undefined"
+        },
+        "fill": {
+            "opacity": 1
+        },
+        "theme": {
+            "monochrome": {
+                "enabled": true,
+                "shadeTo": "light",
+                "shadeIntensity": 0.65
+            }
+        },
+        "states": {
+            "hover": {
+                "filter": {
+                    "type": "darken"
                 }
-            },
-            "responsive": [
-                {
-                    "breakpoint": 480,
-                    "options": {
-                        "chart": {
-                            "width": "100%"
-                        },
-                        "legend": {
-                            "position": "bottom"
-                        }
-                    }
-                }
-            ]
+            }
         }
     }
 }
+
 
