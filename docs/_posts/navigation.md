@@ -129,25 +129,44 @@ for each individual user.
       "icon": "apps",
       "children": [
         {
-          "id": "37f9bb50-7b3c-4c17-b952-965d45b97de2",
-          "title": "Your Businesses",
-          "type": "item",
-          "data": {
-            "url": "https://example.com/businesses",
-            "headers": {},
-            "payload": {},
-            "path": "/businesses"
-          }
+          "id": "3012d074-ed53-492e-8b6e-1730c89b647b",
+          "title": "Businesses Management",
+          "type": "group",
+          "icon": "apps",
+          "children": [
+            {
+              "id": "37f9bb50-7b3c-4c17-b952-965d45b97de2",
+              "title": "Your Businesses",
+              "type": "item",
+              "data": {
+                "url": "https://example.com/businesses",
+                "headers": {},
+                "payload": {},
+                "path": "/businesses"
+              }
+            },
+            {
+              "id": "8898fc9e-b29d-477c-9620-2ee0f1e0a97f",
+              "title": "Your Customers",
+              "type": "item",
+              "data": {
+                "url": "https://example.com/customers",
+                "headers": {},
+                "payload": {},
+                "path": "/customers"
+              }
+            }
+          ]
         },
         {
           "id": "8898fc9e-b29d-477c-9620-2ee0f1e0a97f",
-          "title": "Your Customers",
+          "title": "Your Products",
           "type": "item",
           "data": {
-            "url": "https://example.com/customers",
+            "url": "https://example.com/products",
             "headers": {},
             "payload": {},
-            "path": "/customers"
+            "path": "/products"
           }
         }
       ]
