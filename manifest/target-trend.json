@@ -1,0 +1,63 @@
+{
+  "kind": "target-trend",
+  "version": "v1",
+  "title": "Visits",
+  "current": 882,
+  "history": [
+    {
+      "time": "Monday",
+      "value": 432
+    },
+    {
+      "time": "Tuesday",
+      "value": 428
+    },
+    {
+      "time": "Wednesday",
+      "value": 327
+    },
+    {
+      "time": "Thursday",
+      "value": 363
+    },
+    {
+      "time": "Friday",
+      "value": 456
+    },
+    {
+      "time": "Saturday",
+      "value": 267
+    },
+    {
+      "time": "Sunday",
+      "value": 231
+    }
+  ],
+  "change": {
+    "percent": -9,
+    "postfix": "of target"
+  },
+  "options": {
+    "chart": {
+      "type": "area",
+      "height": "100%",
+      "sparkline": {
+        "enabled": true
+      }
+    },
+    "fill": {
+      "type": "solid",
+      "opacity": 0.7
+    },
+    "tooltip": {
+      "followCursor": true,
+      "theme": "dark",
+      "fixed": {
+        "enabled": false,
+        "position": "topRight",
+        "offsetX": 0,
+        "offsetY": 0
+      }
+    }
+  }
+}
