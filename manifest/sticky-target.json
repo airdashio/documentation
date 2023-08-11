@@ -1,4 +1,6 @@
 {
+  "version": "v1",
+  "kind": "sticky-target",
   "color": "#4caf50",
   "data": {
     "Yesterday": {
