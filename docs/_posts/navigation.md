@@ -110,7 +110,6 @@ for each individual user.
 }
 ```
 
-
 ### Make a Collapse Type Navigation Menu
 
 ```json
