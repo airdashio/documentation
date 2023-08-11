@@ -17,11 +17,25 @@ format through a form.
 - Required string param **kind** always should be **code-editor-json**.
 - Required string param **version** always should be **v1**.
 - Required string param **name** data key for this field's payloads.
-- Required dictionary param **placeholder** display everything you need in the placeholder.
 - Required integer param **height** a numerical value used to set the height of your form's display.
 
 Incorporate this information into the provided template to create a well-structured element relevant to editing
 JSON-formatted forms.
+
+```json
+{
+  "kind": "code-editor-json",
+  "version": "v1",
+  "name": "JsonEditor",
+  "height": 288
+}
+```
+
+
+
+## Set placeholder
+
+- **placeholder** is a dictionary param for set `placeholder`.
 
 ```json
 {
@@ -36,7 +50,3 @@ JSON-formatted forms.
   "height": 288
 }
 ```
-
-
-
-
