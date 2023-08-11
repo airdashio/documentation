@@ -1,9 +1,8 @@
 {
-  "name": "CREATED",
-  "count": {
-    "2W": 48,
-    "LW": 46,
-    "TW": 54
-  },
+  "version": "v1",
+  "kind": "sticky-stat",
+  "value": 214,
+  "color": "#000000",
+  "title": "New Issues",
   "size": "large"
 }
