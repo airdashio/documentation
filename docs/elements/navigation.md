@@ -15,22 +15,6 @@ for each individual user.
 }
 ```
 
-### Make a Default Navigation
-```json
-{
-  "kind": "navigation",
-  "version": "v1",
-  "default": {
-            "url": "https://example.com/my_dashboard",
-            "headers": {},
-            "payload": {},
-            "method": "GET"
-        },
-  "items": null
-}
-```
-
-
 ### Make a Simple Navigation Menu
   - **items** is a list of dictionaries param that allow customer to create navigate menu.
   - **title** is a string param which represents the displayed name of your menu icon.
