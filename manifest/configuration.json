@@ -1,0 +1,22 @@
+{
+  "key": "customer",
+  "title": "داشبورد کاربری",
+  "logo": false,
+  "rtl": false,
+  "navigation": {
+    "url": "https://customer.airdash.io/server/customerdash/navigation",
+    "headers": {},
+    "payload": {}
+  },
+  "login": {
+    "url": "https://customer.airash.io/server/customerdash/login",
+    "headers": {},
+    "payload": {}
+  },
+  "refresh": {
+    "url": "https://customer.airdash.io/server/customerdash/refresh_token",
+    "headers": {},
+    "payload": {}
+  },
+  "expire": 1692279950.14751
+}
