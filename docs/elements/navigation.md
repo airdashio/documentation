@@ -3,20 +3,15 @@
 In AIRDASH we provide users with the capability to customize the arrangement of dashboard pages and the navigation menu
 for each individual user.
 
-### Basic usage
+### No Navigation Menu
 - Required string param **kind** always should be **navigation**.
 - Required string param **version** is **v1**.
-- Required dictionary param **default** is the first page that is seen by the user. 
-
+- Required param **items** should be **null**.
 ```json
 {
   "kind": "navigation",
   "version": "v1",
-  "default": {
-    "url": "https://example.com/first_page",
-    "headers": {},
-    "payload": {}
-  }
+  "items": null
 }
 ```
 
@@ -32,11 +27,6 @@ for each individual user.
 {
   "kind": "navigation",
   "version": "v1",
-  "default": {
-    "url": "https://example.com/first_page",
-    "headers": {},
-    "payload": {}
-  },
   "items": [
     {
       "id": "3012d074-ed53-492e-8b6e-1730c89b647b",
@@ -61,11 +51,6 @@ for each individual user.
 {
   "kind": "navigation",
   "version": "v1",
-  "default": {
-    "url": "https://example.com/first_page",
-    "headers": {},
-    "payload": {}
-  },
   "items": [
     {
       "id": "3012d074-ed53-492e-8b6e-1730c89b647b",
@@ -107,11 +92,6 @@ for each individual user.
 {
   "kind": "navigation",
   "version": "v1",
-  "default": {
-    "url": "https://example.com/first_page",
-    "headers": {},
-    "payload": {}
-  },
   "items": [
     {
       "id": "3012d074-ed53-492e-8b6e-1730c89b647b",
