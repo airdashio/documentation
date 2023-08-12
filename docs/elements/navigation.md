@@ -21,7 +21,7 @@ for each individual user.
   "kind": "navigation",
   "version": "v1",
   "default": {
-            "url": "https://customer.cablo.io/server/customerdash/dashboards",
+            "url": "https://example.com/my_dashboard",
             "headers": {},
             "payload": {},
             "method": "GET"
