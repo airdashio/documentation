@@ -1,12 +1,3 @@
----
-title: page
-author: amir pahlevani
-date: 2023-03-08 14:10:00 +0800
-categories: [ Blogging, Tutorial ]
-tags: [ writing ]
-render_with_liquid: false
----
-
 ## Document Structure for Creating Data Table
 
 In this section, we intend to explain the data-table element, which provides the capability to display information in a

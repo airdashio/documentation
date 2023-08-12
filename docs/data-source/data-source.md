@@ -1,12 +1,3 @@
----
-title: data-source
-author: amir pahlevani
-date: 2023-03-08 14:10:00 +0800
-categories: [ Blogging, Tutorial ]
-tags: [ writing ]
-render_with_liquid: false
----
-
 # Using Data Sources
 
 `AIRDASH` allows users to connect to APIs that provide data in JSON format, enabling them to fetch information in

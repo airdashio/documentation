@@ -1,12 +1,3 @@
----
-title: area-trend-chart
-author: [Amir Pahlevani]
-date: 2023-03-08 15:10:00 +0800
-categories: [Blogging, Data Visualization]
-tags: [writing]
-render_with_liquid: false
----
-
 ## Document Structure for area trend chart
 
 In this section, you can specify the value of the element's data.

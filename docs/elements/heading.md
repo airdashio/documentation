@@ -1,12 +1,3 @@
----
-title: Headings
-author: cotes
-date: 2023-03-08 14:10:00 +0800
-categories: [Blogging, Tutorial]
-tags: [writing]
-render_with_liquid: false
----
-
 ## Document Structure for Creating Headings
 In this particular section, you have the flexibility to personalize your headings in alignment with your individual preferences and requirements. To facilitate this customization process, we have thoughtfully included the sections where modifications can be seamlessly applied within your heading elements.
 ## Basic usage

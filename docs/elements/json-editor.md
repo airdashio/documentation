@@ -1,12 +1,3 @@
----
-title: JSON Editor
-author: cotes
-date: 2023-03-08 14:10:00 +0800
-categories: [ Blogging, Tutorial ]
-tags: [ writing ]
-render_with_liquid: false
----
-
 ## Document Structure for Creating JSON Editor
 
 In this section, you will become familiar with a tool that provides you with the capability to edit code using the JSON

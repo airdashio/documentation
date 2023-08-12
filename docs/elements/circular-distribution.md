@@ -1,12 +1,3 @@
----
-title: circular-distribution
-author: [Author's Name]
-date: [Date and Time]
-categories: [Blogging, Data Visualization]
-tags: [charts, analytics]
-render_with_liquid: false
----
-
 ## Document Structure for Task Distribution
 
 In this section, you will find a detailed representation of a JSON object that captures task distribution information through a polar area chart.

@@ -1,12 +1,3 @@
----
-title: page
-author: amir pahlevani
-date: 2023-03-08 14:10:00 +0800
-categories: [ Blogging, Tutorial ]
-tags: [ writing ]
-render_with_liquid: false
----
-
 ## Document Structure for Creating Navigation
 
 In AIRDASH we provide users with the capability to customize the arrangement of dashboard pages and the navigation menu
