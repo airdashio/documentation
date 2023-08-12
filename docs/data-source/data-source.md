@@ -36,7 +36,7 @@ sources statically.
       ]
     }
   ],
-  "children": []
+  "elements": []
 }
 ```
 
@@ -73,7 +73,7 @@ This empowers users to utilize multiple data sources for input information for e
       }
     }
   ],
-  "children": []
+  "elements": []
 }
 ```
 
@@ -119,7 +119,7 @@ and efficient user experience.
       "url": "https://example.com/api/weekly_sells_count"
     }
   ],
-  "children": []
+  "elements": []
 }
 ```
 
@@ -191,7 +191,7 @@ and efficient user experience.
       ]
     }
   ],
-  "children": [
+  "elements": [
     {
       "version": "v1",
       "kind": "circular-distribution",
@@ -289,11 +289,11 @@ and efficient user experience.
       }
     }
   ],
-  "children": [
+  "elements": [
     {
       "kind": "flex",
       "version": "v1",
-      "children": {
+      "elements": {
         "data-source": [
           "7193df95-9049-4ab5-b18c-0abcc8edd9c3",
           "01ff61ca-2e47-4ebe-b076-7aa9491fcbcb"
@@ -305,7 +305,7 @@ and efficient user experience.
     {
       "kind": "flex",
       "version": "v1",
-      "children": {
+      "elements": {
         "data-source": [
           "7a9b3a14-40f7-46c1-a4da-87742f53bd7e"
         ],

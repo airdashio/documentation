@@ -10,7 +10,7 @@ to [flex document](https://github.com/airdashio/documentation/blob/main/docs/_po
 
 - Required string param **kind** always should be **page**.
 - Required string param **version** is **v1**.
-- Required list param **children**, You can refer to
+- Required list param **elements**, You can refer to
   the [flex document](https://github.com/airdashio/documentation/blob/main/docs/_posts/flex.md) for more information.
 - Required string param **uri** is the address of page for example `/customers`.
 
@@ -20,7 +20,7 @@ Incorporate these details into the provided template to create a well-structured
 {
   "kind": "page",
   "version": "v1",
-  "children": [],
+  "elements": [],
   "uri": "/"
 }
 ```
@@ -34,7 +34,7 @@ the [flex document](https://github.com/airdashio/documentation/blob/main/docs/_p
 {
   "kind": "page",
   "version": "v1",
-  "children": [],
+  "elements": [],
   "uri": "/",
   "classname": "flex"
 }
@@ -48,7 +48,7 @@ For setting a title for the `Page` you can add **title** param.
 {
   "kind": "page",
   "version": "v1",
-  "children": [],
+  "elements": [],
   "uri": "/",
   "title": "SaleForce"
 }
@@ -62,7 +62,7 @@ For setting a title for the `Page` you can add **title** param.
 {
   "kind": "page",
   "version": "v1",
-  "children": [],
+  "elements": [],
   "uri": "/",
   "title": "SaleForce"
 }
@@ -78,7 +78,7 @@ For setting a title for the `Page` you can add **title** param.
     "platform": "AIRDASH",
     "licensed": "https://www.monirs.com"
   },
-  "children": [
+  "elements": [
     {
       "kind": "heading",
       "version": "v1",
@@ -106,7 +106,7 @@ For setting a title for the `Page` you can add **title** param.
       "subtitle": "I love using {{variables.platform}}} for create wonderful dashboards; their site is {{variables.licensed}}}."
     }
   },
-  "children": [
+  "elements": [
   ],
   "uri": "/"
 }
@@ -126,7 +126,7 @@ For setting a title for the `Page` you can add **title** param.
       "subtitle": "I love using {{variables.platform}}} for create wonderful dashboards; their site is {{variables.licensed}}}."
     }
   },
-  "children": [
+  "elements": [
     {
       "template": "heading"
     },
@@ -155,7 +155,7 @@ new `navigation`.
 {
   "kind": "page",
   "version": "v1",
-  "children": [],
+  "elements": [],
   "uri": "/",
   "navigation": "inherit"
 }
@@ -167,7 +167,7 @@ new `navigation`.
 {
   "kind": "page",
   "version": "v1",
-  "children": [],
+  "elements": [],
   "uri": "/",
   "navigation": null
 }
@@ -179,7 +179,7 @@ new `navigation`.
 {
   "kind": "page",
   "version": "v1",
-  "children": [],
+  "elements": [],
   "uri": "/",
   "navigation": {
     "kind": "navigation",
