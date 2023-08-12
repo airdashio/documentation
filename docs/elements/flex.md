@@ -4,7 +4,7 @@ In this dedicated section, you will gain familiarity with a dynamic element that
 By following this structure, create the heading section effectively in your dashboards.
 - Required string param **kind** always should be **flex**.
 - Required string param **version** is **v1**.
-- Required list param **children** your elements.
+- Required list param **elements** your elements.
 - Required string param **className** your required layout type for the elements and support [tailwind's flex items](https://www.tailwindcss.com/docs/flex).
 
 
@@ -14,7 +14,7 @@ Incorporate these details into the provided template to create a well-structured
 {
   "kind": "flex",
   "version": "v1",
-  "children": [],
+  "elements": [],
   "className": "flex"
 }
 ```
