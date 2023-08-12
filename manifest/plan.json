@@ -1,10 +1,10 @@
 {
-  "kind": "heading",
+  "kind": "plan",
   "version": "v1",
   "title": "Starter",
   "price": {
     "value": 29,
-    "unit": ""
+    "unit": "$"
   },
   "features": [
     "Unlimited projects",
@@ -18,7 +18,7 @@
     "url": "http://localhost:8080/sales.json",
     "payload": {}
   },
-  "recommended": "boolean"
+  "recommended": true
 }
 
 
