@@ -57,7 +57,7 @@ for each individual user.
       "title": "Businesses Management",
       "type": "group",
       "icon": "apps",
-      "elements": [
+      "items": [
         {
           "id": "37f9bb50-7b3c-4c17-b952-965d45b97de2",
           "title": "Your Businesses",
@@ -98,13 +98,13 @@ for each individual user.
       "title": "Businesses Management",
       "type": "collapse",
       "icon": "apps",
-      "elements": [
+      "items": [
         {
           "id": "3012d074-ed53-492e-8b6e-1730c89b647b",
           "title": "Businesses Management",
           "type": "group",
           "icon": "apps",
-          "elements": [
+          "items": [
             {
               "id": "37f9bb50-7b3c-4c17-b952-965d45b97de2",
               "title": "Your Businesses",
