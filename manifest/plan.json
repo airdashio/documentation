@@ -1,0 +1,40 @@
+{
+  "kind": "heading",
+  "version": "v1",
+  "title": "Starter",
+  "subtitle": "For small teams",
+  "middle": {
+    "price": 29,
+    "comment": "monthly per user",
+    "theme":{
+      "backgroundColor": "",
+      "color": ""
+    }
+  },
+  "footer": {
+    "content": {
+      "t-head": "",
+      "t-head-two": ""
+    },
+    "theme":{
+      "backgroundColor": "",
+      "color": ""
+    },
+    "buttons": [
+      {
+        "title": "Send",
+        "api": {
+          "headers": {},
+          "url": "http://localhost:8080/sales.json",
+          "payload": {}
+        },
+        "theme": {
+          "color": ""
+        }
+      }
+    ],
+    "t-footer": ""
+
+  }
+
+}
