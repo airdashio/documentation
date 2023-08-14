@@ -125,7 +125,7 @@ This feature allows your users to send a request with the registered attributes 
       "type": "icon",
       "enum": {
         "push": {
-          "icon": "plus",
+          "icon": "check_circle",
           "className": "text-green text-20"
         }
       }
@@ -303,7 +303,7 @@ and be able to make edits.
       "name": "Amin",
       "orders": 1250,
       "activity": {
-        "value": "edit_form",
+        "value": "edit",
         "click": {
           "id": "transaction-edit-form",
           "title": "Transaction editing",
@@ -390,7 +390,7 @@ and be able to make edits.
           "className": "text-green text-20"
         },
         "push": {
-          "icon": "plus",
+          "icon": "check_circle",
           "className": "text-green text-20"
         }
       }
@@ -402,7 +402,7 @@ and be able to make edits.
       "name": "Amin",
       "orders": 1250,
       "activity": {
-        "value": "edit_form",
+        "value": "edit",
         "click": {
           "id": "transaction-edit-form",
           "title": "Transaction editing",
