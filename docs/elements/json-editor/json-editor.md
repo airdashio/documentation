@@ -1,5 +1,10 @@
 ## Document Structure for Creating JSON Editor
 
+
+![airdash-documentation-sticky-target](./airdash-documentation-json-editor.png)
+
+
+
 In this section, you will become familiar with a tool that provides you with the capability to edit code using the JSON
 format through a form.
 

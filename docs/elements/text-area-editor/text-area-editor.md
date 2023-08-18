@@ -1,5 +1,10 @@
 ## Document Structure for Creating Text Area Field
 
+
+![airdash-documentation-sticky-target](./airdash-documentation-json-text-area-editor.png)
+
+
+
 In this section, you will become familiar with a tool that provides you with the capability to edit code using the Text
 format through a form.
 

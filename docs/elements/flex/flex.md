@@ -1,4 +1,14 @@
 ## Document Structure for Creating Flexs
+
+
+![airdash-documentation-sticky-target](./airdash-documentation-flex1.png)
+![airdash-documentation-sticky-target](./airdash-documentation-flex2.png)
+![airdash-documentation-sticky-target](./airdash-documentation-flex3.png)
+![airdash-documentation-sticky-target](./airdash-documentation-flex4.png)
+
+
+
+
 In this dedicated section, you will gain familiarity with a dynamic element that empowers you with the versatile flexibility to rearrange the structure of your dashboard pages according to your preferences and needs.
 ## Basic usage
 By following this structure, create the heading section effectively in your dashboards.

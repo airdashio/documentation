@@ -1,5 +1,10 @@
 ## Document Structure for Creating Data Table
 
+
+![airdash-documentation-sticky-target](./airdash-documentation-json-data-table.png)
+
+
+
 In this section, we intend to explain the data-table element, which provides the capability to display information in a
 table format.
 

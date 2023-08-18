@@ -1,5 +1,10 @@
 ## Document Structure for area trend chart
 
+
+![airdash-documentation-sticky-target](./airdash-documentation-area-trend-chart.png)
+
+
+
 In this section, you can specify the value of the element's data.
 ## Basic usage
 

@@ -1,5 +1,10 @@
 ## Document Structure for Task Distribution
 
+
+![airdash-documentation-sticky-target](./airdash-documentation-circular-distribution.png)
+
+
+
 In this section, you will find a detailed representation of a JSON object that captures task distribution information through a polar area chart.
 
 ## Basic usage

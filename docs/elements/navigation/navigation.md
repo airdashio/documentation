@@ -1,5 +1,10 @@
 ## Document Structure for Creating Navigation
 
+
+![airdash-documentation-sticky-target](./airdash-documentation-navigation.png)
+
+
+
 In AIRDASH we provide users with the capability to customize the arrangement of dashboard pages and the navigation menu
 for each individual user.
 

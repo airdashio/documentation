@@ -1,4 +1,8 @@
 ## Document Structure for Creating Headings
+
+![airdash-documentation-sticky-target](./airdash-documentation-heading.png)
+
+
 In this particular section, you have the flexibility to personalize your headings in alignment with your individual preferences and requirements. To facilitate this customization process, we have thoughtfully included the sections where modifications can be seamlessly applied within your heading elements.
 ## Basic usage
 By following this structure, create the heading section effectively in your dashboards.

@@ -1,5 +1,10 @@
 ## Document Structure for Creating Text Field
 
+
+![airdash-documentation-sticky-target](./airdash-documentation-json-text-field.png)
+
+
+
 In this section, you will become familiar with a tool that provides you with the capability to edit text-field.
 
 ## Basic usage
