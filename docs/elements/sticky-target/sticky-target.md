@@ -1,5 +1,8 @@
 ## Document Structure for sticky target
 
+![airdash-documentation-sticky-target](./airdash-documentation-sticky-target.png)
+
+
 In this section, you can specify the value of the element's data.
 ## Basic usage
 
