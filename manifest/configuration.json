@@ -1,0 +1,30 @@
+{
+  "key": "customer",
+  "title": "داشبورد کاربری",
+  "logo": false,
+  "rtl": false,
+  "default": {
+    "url": "https://airdash.io/server/grab-this-dashboard",
+    "uri": "/",
+    "payload": {},
+    "headers": {},
+    "method": "GET"
+  },
+  "public": [
+    {
+      "url": "https://airdash.io/server/grab-this-dashboard",
+      "uri": "/",
+      "payload": {},
+      "headers": {},
+      "method": "GET"
+    },
+    {
+      "url": "https://airdash.io/server/grab-this-dashboard",
+      "uri": "/public/grab-this-dashboard",
+      "payload": {},
+      "headers": {},
+      "method": "GET"
+    }
+  ],
+  "expire": 1692279950.14751
+}

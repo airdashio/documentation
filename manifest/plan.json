@@ -1,0 +1,27 @@
+{
+  "kind": "plan",
+  "version": "v1",
+  "title": "Starter",
+  "price": {
+    "value": 29,
+    "unit": "$"
+  },
+  "features": [
+    "Unlimited projects",
+    "Unlimited pages",
+    "Unlimited disk space",
+    "24 / 7 Free support"
+  ],
+  "note": "7 day free trial to start",
+  "button": {
+    "headers": {},
+    "url": "http://localhost:8080/sales.json",
+    "payload": {}
+  },
+  "recommended": true
+}
+
+
+
+
+

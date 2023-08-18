@@ -20,8 +20,8 @@
       "categoryId": 87564521
     }
   },
-  "children": [],
+  "elements": [],
   "className": "flex",
   "uri": "/",
-  "navigation_id": "cbf6601a-06c1-4ec8-8103-1b4816aea48e"
+  "navigation": "inherit"
 }
