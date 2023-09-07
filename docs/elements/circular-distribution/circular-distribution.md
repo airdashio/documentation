@@ -104,6 +104,44 @@ The label section is optional, but if not provided, it will be automatically gen
 }
 ```
 
+```json
+{
+                        "version": "v1",
+                        "kind": "circular-distribution",
+                        "labels": {
+                            "pies": [
+                                "بلیز ۶ماهه",
+                                "بلیز ۱ساله",
+                                "پریسکه ۶ماهه",
+                                "پریسکه ۶ماهه"
+                            ],
+                            "open": "تعداد اشتراک های فعال",
+                            "closed": "تعداد اشتراک های نیاز به تمدید"
+                        },
+                        "series": {
+                            "هفته گذشته": {
+                                "pies": [
+                                    15,
+                                    20,
+                                    38,
+                                    27
+                                ],
+                                "open": 12,
+                                "closed": 4
+                            },
+                            "ماه گذشته": {
+                                "pies": [
+                                    19,
+                                    16,
+                                    42,
+                                    23
+                                ],
+                                "open": 564,
+                                "closed": 212
+                            }
+                        }
+                    }
+```
 ### options
 
 All the optional configuration of the chart goes in this property.If you intend to define options for your dashboard,
