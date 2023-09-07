@@ -15,7 +15,7 @@ Incorporate these details into the provided template to create a well-structured
   "kind": "break",
   "version": "v1",
   "width": "100%",
-  "height": "10px"
+  "height": 10
 }
 
 ```
